@@ -9,7 +9,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import ssl
 from bs4 import BeautifulSoup
 
-with open('DIN.txt', 'r') as file:
+with open('DIN_first1m.txt', 'r') as file:
     dins = file.read().splitlines()
 
 cookies = {
